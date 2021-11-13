@@ -2441,7 +2441,7 @@
 											"top": 727,
 											"width": 191.21044921875,
 											"height": 13,
-											"text": "CreateRepoInfoEventHandler"
+											"text": "CreateRepoEventHandler"
 										},
 										{
 											"_type": "LabelView",
@@ -3815,7 +3815,7 @@
 											"top": 727,
 											"width": 198.20556640625,
 											"height": 13,
-											"text": "ChangeRepoInfoEventHandler"
+											"text": "UpdateRepoEventHandler"
 										},
 										{
 											"_type": "LabelView",
@@ -6418,7 +6418,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
-					"name": "CreateRepoInfoEventHandler",
+					"name": "CreateRepoEventHandler",
 					"ownedElements": [
 						{
 							"_type": "UMLDependency",
@@ -6528,7 +6528,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
-					"name": "ChangeRepoInfoEventHandler",
+					"name": "UpdateRepoEventHandler",
 					"ownedElements": [
 						{
 							"_type": "UMLDependency",
@@ -6569,7 +6569,8 @@
 								"$ref": "AAAAAAF9FQYS5HGr/yI="
 							}
 						}
-					]
+					],
+					"documentation": "处理更新仓库事件"
 				},
 				{
 					"_type": "UMLClass",

@@ -5344,7 +5344,7 @@
 								"$ref": "AAAAAAF85ZsNAA2re0Y="
 							},
 							"name": "getActionList",
-							"documentation": "此方法用于获取用户所有行为记录，通过List返回，需要使用GitHub的API。\n行为包括：提交、合并、上传、拉取、连接。\nearlyTime表示所需要的最早时间，更早的记录不必返回。\n返回的List为一个二维List，格式如下\nList[0][0]为用户最近的一个操作名，List[0][1]为用户执行该操作的时间，如\"2021/11/3 22:41\"，该列表需按照提交时间从最近到最早进行排序。",
+							"documentation": "此方法用于获取用户所有行为记录，通过List返回，需要使用GitHub的API。\n行为包括：提交、合并、上传、拉取、连接。\n即：\"commit\" \"merge\" \"push\" \"pull\" \"remote\"\nearlyTime表示所需要的最早时间，更早的记录不必返回。\n返回的List为一个二维List，格式如下：\nList[0][0]为用户最近的一个操作名，如\"push\"，List[0][1]为用户执行该操作的时间，如\"2021/11/3 22:41\"，该列表需按照提交时间从最近到最早进行排序。",
 							"stereotype": "获取用户近期所有行为记录",
 							"parameters": [
 								{

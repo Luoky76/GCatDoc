@@ -5344,7 +5344,7 @@
 								"$ref": "AAAAAAF85ZsNAA2re0Y="
 							},
 							"name": "getActionList",
-							"documentation": "此方法用于获取用户所有行为记录，通过List返回，需要使用GitHub的API。\n行为包括：提交、合并、上传、拉取、连接。\n即：\"commit\" \"merge\" \"push\" \"pull\" \"remote\"\nearlyTime表示所需要的最早时间，更早的记录不必返回。\n返回的List为一个二维List，格式如下：\nList[0][0]为用户最近的一个操作名，如\"push\"，List[0][1]为用户执行该操作的时间，如\"2021/11/3 22:41\"，该列表需按照提交时间从最近到最早进行排序。",
+							"documentation": "此方法用于获取用户所有行为记录，通过List返回，需要使用GitHub的API。\n行为包括：提交、合并、上传、拉取、连接。\n即：\"commit\" \"merge\" \"push\"\nearlyTime表示所需要的最早时间，更早的记录不必返回。\n返回的List为一个二维List，格式如下：\nList[0][0]为用户最近的一个操作名，如\"push\"，List[0][1]为用户执行该操作的时间，如\"2021/11/3 22:41\"，该列表需按照提交时间从最近到最早进行排序。\n注：commit操作不带时间，此时时间列放空。",
 							"stereotype": "获取用户近期所有行为记录",
 							"parameters": [
 								{
@@ -5384,7 +5384,7 @@
 								"$ref": "AAAAAAF85ZsNAA2re0Y="
 							},
 							"name": "getActionList",
-							"documentation": "此方法用于获取用户特定行为记录，通过List返回，需要使用GitHub的API。\nearlyTime表示所需要的最早时间，更早的记录不必返回。\nactionKind为所需行为类型，有以下取值：\n\"push\" \"commit\" \"pull\" \"remote\" \"merge\"\n返回的List为一个二维List，格式如下\nList[0][0]为用户最近的一个操作名，List[0][1]为用户执行该操作的时间，如\"2021/11/3 22:41\"，该列表需按照提交时间从最近到最早进行排序。",
+							"documentation": "此方法用于获取用户特定行为记录，通过List返回，需要使用GitHub的API。\nearlyTime表示所需要的最早时间，更早的记录不必返回。\nactionKind为所需行为类型，有以下取值：\n\"push\" \"commit\" \"merge\"\n返回的List为一个二维List，格式如下\nList[0][0]为用户最近的一个操作名，List[0][1]为用户执行该操作的时间，如\"2021/11/3 22:41\"，该列表需按照提交时间从最近到最早进行排序。\n注：commit操作不带时间，此时时间列放空。",
 							"stereotype": "获取用户近期特定行为记录",
 							"parameters": [
 								{

@@ -240,7 +240,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 229,
-											"top": 333,
+											"top": 325,
 											"width": 602.58935546875,
 											"height": 13,
 											"text": "«用于获取用户信息»"
@@ -253,7 +253,7 @@
 											},
 											"font": "Arial;13;1",
 											"left": 229,
-											"top": 348,
+											"top": 340,
 											"width": 602.58935546875,
 											"height": 13,
 											"text": "UserInfo"
@@ -267,7 +267,7 @@
 											"visible": false,
 											"font": "Arial;13;0",
 											"left": -144,
-											"top": 80,
+											"top": 64,
 											"width": 82.56396484375,
 											"height": 13,
 											"text": "(from Model)"
@@ -281,14 +281,14 @@
 											"visible": false,
 											"font": "Arial;13;0",
 											"left": -144,
-											"top": 80,
+											"top": 64,
 											"height": 13,
 											"horizontalAlignment": 1
 										}
 									],
 									"font": "Arial;13;0",
 									"left": 224,
-									"top": 328,
+									"top": 320,
 									"width": 612.58935546875,
 									"height": 38,
 									"stereotypeLabel": {
@@ -315,7 +315,7 @@
 									},
 									"font": "Arial;13;0",
 									"left": 224,
-									"top": 366,
+									"top": 358,
 									"width": 612.58935546875,
 									"height": 10
 								},
@@ -340,7 +340,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 229,
-											"top": 381,
+											"top": 373,
 											"width": 602.58935546875,
 											"height": 13,
 											"text": "«获取用户代码量»+getCodeQuantity(userToken: String): int",
@@ -357,7 +357,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 229,
-											"top": 396,
+											"top": 388,
 											"width": 602.58935546875,
 											"height": 13,
 											"text": "«获取用户新建仓库»+getNewRepository(userToken: String, earlyTime: float): List",
@@ -374,7 +374,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 229,
-											"top": 411,
+											"top": 403,
 											"width": 602.58935546875,
 											"height": 13,
 											"text": "«获取用户新协作者»+getNewCollaborator(userToken: String, earlyTime: float): List",
@@ -391,10 +391,10 @@
 											},
 											"font": "Arial;13;0",
 											"left": 229,
-											"top": 426,
+											"top": 418,
 											"width": 602.58935546875,
 											"height": 13,
-											"text": "«获取用户所有浏览记录»+getBrowseList(userToken: String, earlyTime: float): List",
+											"text": "«获取用户所有浏览记录»+getAllBrowseList(userToken: String, earlyTime: float): List",
 											"horizontalAlignment": 0
 										},
 										{
@@ -408,7 +408,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 229,
-											"top": 441,
+											"top": 433,
 											"width": 602.58935546875,
 											"height": 13,
 											"text": "«获取用户特定浏览记录»+getBrowseList(userToken: String, earlyTime: float, lang: String): List",
@@ -425,10 +425,10 @@
 											},
 											"font": "Arial;13;0",
 											"left": 229,
-											"top": 456,
+											"top": 448,
 											"width": 602.58935546875,
 											"height": 13,
-											"text": "«获取用户近期所有行为记录»+getActionList(userToken: String, earlyTime: float): List",
+											"text": "«获取用户近期所有行为记录»+getAllActionList(userToken: String, earlyTime: float): List",
 											"horizontalAlignment": 0
 										},
 										{
@@ -442,7 +442,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 229,
-											"top": 471,
+											"top": 463,
 											"width": 602.58935546875,
 											"height": 13,
 											"text": "«获取用户近期特定行为记录»+getActionList(userToken: String, earlyTime: float, actionKind: String): List",
@@ -451,7 +451,7 @@
 									],
 									"font": "Arial;13;0",
 									"left": 224,
-									"top": 376,
+									"top": 368,
 									"width": 612.58935546875,
 									"height": 113
 								},
@@ -467,7 +467,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": -80,
-									"top": 40,
+									"top": 32,
 									"width": 10,
 									"height": 10
 								},
@@ -483,7 +483,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": -80,
-									"top": 40,
+									"top": 32,
 									"width": 10,
 									"height": 10
 								}
@@ -491,7 +491,7 @@
 							"font": "Arial;13;0",
 							"containerChangeable": true,
 							"left": 224,
-							"top": 328,
+							"top": 320,
 							"width": 612.58935546875,
 							"height": 161,
 							"nameCompartment": {
@@ -2509,7 +2509,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": 416,
-									"top": 591,
+									"top": 587,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 15,
@@ -2530,7 +2530,7 @@
 									"visible": null,
 									"font": "Arial;13;0",
 									"left": 403,
-									"top": 584,
+									"top": 580,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 30,
@@ -2551,7 +2551,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": 443,
-									"top": 604,
+									"top": 600,
 									"height": 13,
 									"alpha": -1.5707963267948966,
 									"distance": 15,
@@ -2569,7 +2569,7 @@
 								"$ref": "AAAAAAF870o3w5HXWzg="
 							},
 							"lineStyle": 1,
-							"points": "372:719;488:489",
+							"points": "371:719;489:481",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAF872EpFZOEoc8="
@@ -5727,7 +5727,7 @@
 							"_parent": {
 								"$ref": "AAAAAAF85ZsNAA2re0Y="
 							},
-							"name": "getBrowseList",
+							"name": "getAllBrowseList",
 							"documentation": "此方法用于获取用户浏览记录，通过List返回，需要使用数据库。\nearlyTime表示所需要的最早时间，更早的记录不必返回。\nList列表需按照提交时间从最近到最晚进行排序。",
 							"stereotype": "获取用户所有浏览记录",
 							"parameters": [
@@ -5816,7 +5816,7 @@
 							"_parent": {
 								"$ref": "AAAAAAF85ZsNAA2re0Y="
 							},
-							"name": "getActionList",
+							"name": "getAllActionList",
 							"documentation": "此方法用于获取用户所有行为记录，通过List返回，需要使用GitHub的API。\n行为包括：提交、合并、上传。\n即：\"commit\" \"merge\" \"push\"\nearlyTime表示所需要的最早时间，更早的记录不必返回。\n返回的List为一个二维List，格式如下：\nList[0][0]为用户最近的一个操作名，如\"push\"，List[0][1]为用户执行该操作的时间，如\"2021/11/3 22:41\"，该列表需按照提交时间从最近到最早进行排序。\n注：commit操作不带时间，此时时间列填写push的时间即可。",
 							"stereotype": "获取用户近期所有行为记录",
 							"parameters": [

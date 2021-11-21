@@ -149,7 +149,7 @@
 											"top": 557,
 											"width": 364.0888671875,
 											"height": 13,
-											"text": "«获取推荐仓库»+getRcmd(userID: String): List",
+											"text": "«获取推荐仓库»+getRcmd(userToken: String): List",
 											"horizontalAlignment": 0
 										}
 									],
@@ -239,8 +239,8 @@
 												"$ref": "AAAAAAF85ZsNAQ2uYpQ="
 											},
 											"font": "Arial;13;0",
-											"left": 237,
-											"top": 277,
+											"left": 229,
+											"top": 333,
 											"width": 602.58935546875,
 											"height": 13,
 											"text": "«用于获取用户信息»"
@@ -252,8 +252,8 @@
 												"$ref": "AAAAAAF85ZsNAQ2uYpQ="
 											},
 											"font": "Arial;13;1",
-											"left": 237,
-											"top": 292,
+											"left": 229,
+											"top": 348,
 											"width": 602.58935546875,
 											"height": 13,
 											"text": "UserInfo"
@@ -266,8 +266,8 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": -128,
-											"top": -32,
+											"left": -144,
+											"top": 80,
 											"width": 82.56396484375,
 											"height": 13,
 											"text": "(from Model)"
@@ -280,15 +280,15 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": -128,
-											"top": -32,
+											"left": -144,
+											"top": 80,
 											"height": 13,
 											"horizontalAlignment": 1
 										}
 									],
 									"font": "Arial;13;0",
-									"left": 232,
-									"top": 272,
+									"left": 224,
+									"top": 328,
 									"width": 612.58935546875,
 									"height": 38,
 									"stereotypeLabel": {
@@ -314,8 +314,8 @@
 										"$ref": "AAAAAAF85ZsNAA2re0Y="
 									},
 									"font": "Arial;13;0",
-									"left": 232,
-									"top": 310,
+									"left": 224,
+									"top": 366,
 									"width": 612.58935546875,
 									"height": 10
 								},
@@ -339,11 +339,11 @@
 												"$ref": "AAAAAAF85biafg33GpM="
 											},
 											"font": "Arial;13;0",
-											"left": 237,
-											"top": 325,
+											"left": 229,
+											"top": 381,
 											"width": 602.58935546875,
 											"height": 13,
-											"text": "«获取用户代码量»+getCodeQuantity(userID: String): int",
+											"text": "«获取用户代码量»+getCodeQuantity(userToken: String): int",
 											"horizontalAlignment": 0
 										},
 										{
@@ -356,11 +356,11 @@
 												"$ref": "AAAAAAF85eLemQ8sR3U="
 											},
 											"font": "Arial;13;0",
-											"left": 237,
-											"top": 340,
+											"left": 229,
+											"top": 396,
 											"width": 602.58935546875,
 											"height": 13,
-											"text": "«获取用户新建仓库个数»+getNewRepositoryCnt(userID: String, earlyTime: float): int",
+											"text": "«获取用户新建仓库»+getNewRepository(userToken: String, earlyTime: float): List",
 											"horizontalAlignment": 0
 										},
 										{
@@ -373,45 +373,11 @@
 												"$ref": "AAAAAAF85gPz5A93iOY="
 											},
 											"font": "Arial;13;0",
-											"left": 237,
-											"top": 355,
+											"left": 229,
+											"top": 411,
 											"width": 602.58935546875,
 											"height": 13,
-											"text": "«获取用户新协作者人数»+getNewCollaboratorCnt(userID: String, earlyTime: float): int",
-											"horizontalAlignment": 0
-										},
-										{
-											"_type": "UMLOperationView",
-											"_id": "AAAAAAF85gluaw+TSAM=",
-											"_parent": {
-												"$ref": "AAAAAAF85ZsNAg20jXk="
-											},
-											"model": {
-												"$ref": "AAAAAAF85gluXg+Q8Dg="
-											},
-											"font": "Arial;13;0",
-											"left": 237,
-											"top": 370,
-											"width": 602.58935546875,
-											"height": 13,
-											"text": "«获取浏览次数»+getBrowseCnt(userID: String, earlyTime: float): int",
-											"horizontalAlignment": 0
-										},
-										{
-											"_type": "UMLOperationView",
-											"_id": "AAAAAAF85ohd2BD4ChQ=",
-											"_parent": {
-												"$ref": "AAAAAAF85ZsNAg20jXk="
-											},
-											"model": {
-												"$ref": "AAAAAAF85ohdyxD1qaw="
-											},
-											"font": "Arial;13;0",
-											"left": 237,
-											"top": 385,
-											"width": 602.58935546875,
-											"height": 13,
-											"text": "«获取用户特定浏览次数»+getBrowseCnt(userID: String, earlyTime: float, lang: String): int",
+											"text": "«获取用户新协作者»+getNewCollaborator(userToken: String, earlyTime: float): List",
 											"horizontalAlignment": 0
 										},
 										{
@@ -424,11 +390,11 @@
 												"$ref": "AAAAAAF85iqNQA+pS+M="
 											},
 											"font": "Arial;13;0",
-											"left": 237,
-											"top": 400,
+											"left": 229,
+											"top": 426,
 											"width": 602.58935546875,
 											"height": 13,
-											"text": "«获取用户所有浏览记录»+getBrowseList(userID: String, earlyTime: float): List",
+											"text": "«获取用户所有浏览记录»+getBrowseList(userToken: String, earlyTime: float): List",
 											"horizontalAlignment": 0
 										},
 										{
@@ -441,11 +407,11 @@
 												"$ref": "AAAAAAF85nHUIxDB8pg="
 											},
 											"font": "Arial;13;0",
-											"left": 237,
-											"top": 415,
+											"left": 229,
+											"top": 441,
 											"width": 602.58935546875,
 											"height": 13,
-											"text": "«获取用户特定浏览记录»+getBrowseList(userID: String, earlyTime: float, lang: String): List",
+											"text": "«获取用户特定浏览记录»+getBrowseList(userToken: String, earlyTime: float, lang: String): List",
 											"horizontalAlignment": 0
 										},
 										{
@@ -458,11 +424,11 @@
 												"$ref": "AAAAAAF85jf+MA/T/6s="
 											},
 											"font": "Arial;13;0",
-											"left": 237,
-											"top": 430,
+											"left": 229,
+											"top": 456,
 											"width": 602.58935546875,
 											"height": 13,
-											"text": "«获取用户近期所有行为记录»+getActionList(userID: String, earlyTime: float): List",
+											"text": "«获取用户近期所有行为记录»+getActionList(userToken: String, earlyTime: float): List",
 											"horizontalAlignment": 0
 										},
 										{
@@ -475,19 +441,19 @@
 												"$ref": "AAAAAAF85k6KhQ/3big="
 											},
 											"font": "Arial;13;0",
-											"left": 237,
-											"top": 445,
+											"left": 229,
+											"top": 471,
 											"width": 602.58935546875,
 											"height": 13,
-											"text": "«获取用户近期特定行为记录»+getActionList(userID: String, earlyTime: float, actionKind: String): List",
+											"text": "«获取用户近期特定行为记录»+getActionList(userToken: String, earlyTime: float, actionKind: String): List",
 											"horizontalAlignment": 0
 										}
 									],
 									"font": "Arial;13;0",
-									"left": 232,
-									"top": 320,
+									"left": 224,
+									"top": 376,
 									"width": 612.58935546875,
-									"height": 143
+									"height": 113
 								},
 								{
 									"_type": "UMLReceptionCompartmentView",
@@ -500,8 +466,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": -72,
-									"top": -16,
+									"left": -80,
+									"top": 40,
 									"width": 10,
 									"height": 10
 								},
@@ -516,18 +482,18 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": -72,
-									"top": -16,
+									"left": -80,
+									"top": 40,
 									"width": 10,
 									"height": 10
 								}
 							],
 							"font": "Arial;13;0",
 							"containerChangeable": true,
-							"left": 232,
-							"top": 272,
+							"left": 224,
+							"top": 328,
 							"width": 612.58935546875,
-							"height": 193,
+							"height": 161,
 							"nameCompartment": {
 								"$ref": "AAAAAAF85ZsNAQ2uYpQ="
 							},
@@ -571,7 +537,7 @@
 												"$ref": "AAAAAAF85pLmOREjJnU="
 											},
 											"font": "Arial;13;0",
-											"left": 1005,
+											"left": 1013,
 											"top": 509,
 											"width": 479.095703125,
 											"height": 13,
@@ -584,7 +550,7 @@
 												"$ref": "AAAAAAF85pLmOREjJnU="
 											},
 											"font": "Arial;13;1",
-											"left": 1005,
+											"left": 1013,
 											"top": 524,
 											"width": 479.095703125,
 											"height": 13,
@@ -598,7 +564,7 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": -528,
+											"left": -512,
 											"top": 464,
 											"width": 82.56396484375,
 											"height": 13,
@@ -612,14 +578,14 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": -528,
+											"left": -512,
 											"top": 464,
 											"height": 13,
 											"horizontalAlignment": 1
 										}
 									],
 									"font": "Arial;13;0",
-									"left": 1000,
+									"left": 1008,
 									"top": 504,
 									"width": 489.095703125,
 									"height": 38,
@@ -646,7 +612,7 @@
 										"$ref": "AAAAAAF85pLmOBEgf1E="
 									},
 									"font": "Arial;13;0",
-									"left": 1000,
+									"left": 1008,
 									"top": 542,
 									"width": 489.095703125,
 									"height": 10
@@ -671,16 +637,16 @@
 												"$ref": "AAAAAAF871HuRZJhIBQ="
 											},
 											"font": "Arial;13;0",
-											"left": 1005,
+											"left": 1013,
 											"top": 557,
 											"width": 479.095703125,
 											"height": 13,
-											"text": "«发送任务通知»+sendMission(userID: String, repoID: String, msg: String): bool",
+											"text": "«发送任务通知»+sendMission(userToken: String, repoID: String, msg: String): bool",
 											"horizontalAlignment": 0
 										}
 									],
 									"font": "Arial;13;0",
-									"left": 1000,
+									"left": 1008,
 									"top": 552,
 									"width": 489.095703125,
 									"height": 23
@@ -696,7 +662,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": -264,
+									"left": -256,
 									"top": 232,
 									"width": 10,
 									"height": 10
@@ -712,7 +678,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": -264,
+									"left": -256,
 									"top": 232,
 									"width": 10,
 									"height": 10
@@ -720,7 +686,7 @@
 							],
 							"font": "Arial;13;0",
 							"containerChangeable": true,
-							"left": 1000,
+							"left": 1008,
 							"top": 504,
 							"width": 489.095703125,
 							"height": 71,
@@ -861,23 +827,6 @@
 										},
 										{
 											"_type": "UMLAttributeView",
-											"_id": "AAAAAAF866pKE1bamIs=",
-											"_parent": {
-												"$ref": "AAAAAAF865mtQ1ZvdsM="
-											},
-											"model": {
-												"$ref": "AAAAAAF866pKAlbXwHo="
-											},
-											"font": "Arial;13;0",
-											"left": 45,
-											"top": 1058,
-											"width": 227.23974609375,
-											"height": 13,
-											"text": "«用户标识码»+userID: String",
-											"horizontalAlignment": 0
-										},
-										{
-											"_type": "UMLAttributeView",
 											"_id": "AAAAAAF866qee1bi858=",
 											"_parent": {
 												"$ref": "AAAAAAF865mtQ1ZvdsM="
@@ -887,7 +836,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 45,
-											"top": 1073,
+											"top": 1058,
 											"width": 227.23974609375,
 											"height": 13,
 											"text": "«仓库标识码»+repoID: String",
@@ -904,7 +853,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 45,
-											"top": 1088,
+											"top": 1073,
 											"width": 227.23974609375,
 											"height": 13,
 											"text": "«用户访问令牌»+userToken: String",
@@ -921,7 +870,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 45,
-											"top": 1103,
+											"top": 1088,
 											"width": 227.23974609375,
 											"height": 13,
 											"text": "«事件类型»+eType: String",
@@ -938,7 +887,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 45,
-											"top": 1118,
+											"top": 1103,
 											"width": 227.23974609375,
 											"height": 13,
 											"text": "«事件详细内容»+eDetail: List",
@@ -955,7 +904,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 45,
-											"top": 1133,
+											"top": 1118,
 											"width": 227.23974609375,
 											"height": 13,
 											"text": "«事件发起时间»+eTime: float",
@@ -966,7 +915,7 @@
 									"left": 40,
 									"top": 1038,
 									"width": 237.23974609375,
-									"height": 113
+									"height": 98
 								},
 								{
 									"_type": "UMLOperationCompartmentView",
@@ -989,7 +938,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 45,
-											"top": 1156,
+											"top": 1141,
 											"width": 227.23974609375,
 											"height": 13,
 											"text": "+(jasonList: List): GEvent",
@@ -1006,7 +955,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 45,
-											"top": 1171,
+											"top": 1156,
 											"width": 227.23974609375,
 											"height": 13,
 											"text": "«转为jason报文»+toJason(): List",
@@ -1015,7 +964,7 @@
 									],
 									"font": "Arial;13;0",
 									"left": 40,
-									"top": 1151,
+									"top": 1136,
 									"width": 237.23974609375,
 									"height": 38
 								},
@@ -1057,7 +1006,7 @@
 							"left": 40,
 							"top": 1000,
 							"width": 237.23974609375,
-							"height": 189,
+							"height": 177,
 							"nameCompartment": {
 								"$ref": "AAAAAAF865mtQ1Zqqh4="
 							},
@@ -1103,7 +1052,7 @@
 											"font": "Arial;13;0",
 											"left": 613,
 											"top": 509,
-											"width": 364.431640625,
+											"width": 386.92138671875,
 											"height": 13,
 											"text": "«GitHub操作»"
 										},
@@ -1116,7 +1065,7 @@
 											"font": "Arial;13;1",
 											"left": 613,
 											"top": 524,
-											"width": 364.431640625,
+											"width": 386.92138671875,
 											"height": 13,
 											"text": "GitHubOperator"
 										},
@@ -1151,7 +1100,7 @@
 									"font": "Arial;13;0",
 									"left": 608,
 									"top": 504,
-									"width": 374.431640625,
+									"width": 396.92138671875,
 									"height": 38,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF867B7bFcECCc="
@@ -1178,7 +1127,7 @@
 									"font": "Arial;13;0",
 									"left": 608,
 									"top": 542,
-									"width": 374.431640625,
+									"width": 396.92138671875,
 									"height": 10
 								},
 								{
@@ -1203,7 +1152,7 @@
 											"font": "Arial;13;0",
 											"left": 613,
 											"top": 557,
-											"width": 364.431640625,
+											"width": 386.92138671875,
 											"height": 13,
 											"text": "«登录»+login(userToken: String): bool",
 											"horizontalAlignment": 0
@@ -1220,9 +1169,9 @@
 											"font": "Arial;13;0",
 											"left": 613,
 											"top": 572,
-											"width": 364.431640625,
+											"width": 386.92138671875,
 											"height": 13,
-											"text": "«关注»+follow(otherUserID: String): bool",
+											"text": "«关注»+follow(userToken: String, otherUserID: String): bool",
 											"horizontalAlignment": 0
 										},
 										{
@@ -1237,9 +1186,9 @@
 											"font": "Arial;13;0",
 											"left": 613,
 											"top": 587,
-											"width": 364.431640625,
+											"width": 386.92138671875,
 											"height": 13,
-											"text": "«取关»+declineFollow(otherUserID: String): bool",
+											"text": "«取关»+declineFollow(userToken: String, otherUserID: String): bool",
 											"horizontalAlignment": 0
 										},
 										{
@@ -1254,9 +1203,9 @@
 											"font": "Arial;13;0",
 											"left": 613,
 											"top": 602,
-											"width": 364.431640625,
+											"width": 386.92138671875,
 											"height": 13,
-											"text": "«收藏»+star(repoID: String): bool",
+											"text": "«收藏»+star(userToken: String, repoID: String): bool",
 											"horizontalAlignment": 0
 										},
 										{
@@ -1271,9 +1220,9 @@
 											"font": "Arial;13;0",
 											"left": 613,
 											"top": 617,
-											"width": 364.431640625,
+											"width": 386.92138671875,
 											"height": 13,
-											"text": "«取消收藏»+declineStar(repoID: String): bool",
+											"text": "«取消收藏»+declineStar(userToken: String, repoID: String): bool",
 											"horizontalAlignment": 0
 										},
 										{
@@ -1288,16 +1237,16 @@
 											"font": "Arial;13;0",
 											"left": 613,
 											"top": 632,
-											"width": 364.431640625,
+											"width": 386.92138671875,
 											"height": 13,
-											"text": "«创建仓库»+creatRepo(): String",
+											"text": "«创建仓库»+creatRepo(userToken: String, repoID: String): String",
 											"horizontalAlignment": 0
 										}
 									],
 									"font": "Arial;13;0",
 									"left": 608,
 									"top": 552,
-									"width": 374.431640625,
+									"width": 396.92138671875,
 									"height": 98
 								},
 								{
@@ -1337,7 +1286,7 @@
 							"containerChangeable": true,
 							"left": 608,
 							"top": 504,
-							"width": 374.431640625,
+							"width": 396.92138671875,
 							"height": 146,
 							"nameCompartment": {
 								"$ref": "AAAAAAF867B7bFcDt04="
@@ -2559,8 +2508,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 417,
-									"top": 579,
+									"left": 416,
+									"top": 591,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 15,
@@ -2581,7 +2530,7 @@
 									"visible": null,
 									"font": "Arial;13;0",
 									"left": 403,
-									"top": 573,
+									"top": 584,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 30,
@@ -2601,8 +2550,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 444,
-									"top": 592,
+									"left": 443,
+									"top": 604,
 									"height": 13,
 									"alpha": -1.5707963267948966,
 									"distance": 15,
@@ -2620,7 +2569,7 @@
 								"$ref": "AAAAAAF870o3w5HXWzg="
 							},
 							"lineStyle": 1,
-							"points": "371:719;491:465",
+							"points": "372:719;488:489",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAF872EpFZOEoc8="
@@ -2653,7 +2602,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 625,
+									"left": 629,
 									"top": 665,
 									"height": 13,
 									"alpha": 1.5707963267948966,
@@ -2674,8 +2623,8 @@
 									},
 									"visible": null,
 									"font": "Arial;13;0",
-									"left": 617,
-									"top": 653,
+									"left": 621,
+									"top": 652,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 30,
@@ -2695,7 +2644,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 642,
+									"left": 644,
 									"top": 690,
 									"height": 13,
 									"alpha": -1.5707963267948966,
@@ -2714,7 +2663,7 @@
 								"$ref": "AAAAAAF870uxsJIFOqA="
 							},
 							"lineStyle": 1,
-							"points": "583:719;685:650",
+							"points": "584:719;691:650",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAF872E6UpOVup8="
@@ -3287,7 +3236,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 748,
+									"left": 753,
 									"top": 673,
 									"height": 13,
 									"alpha": 1.5707963267948966,
@@ -3308,8 +3257,8 @@
 									},
 									"visible": null,
 									"font": "Arial;13;0",
-									"left": 734,
-									"top": 669,
+									"left": 739,
+									"top": 668,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 30,
@@ -3329,7 +3278,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 777,
+									"left": 782,
 									"top": 682,
 									"height": 13,
 									"alpha": -1.5707963267948966,
@@ -3348,7 +3297,7 @@
 								"$ref": "AAAAAAF871ye1ZKOQgU="
 							},
 							"lineStyle": 1,
-							"points": "754:719;773:650",
+							"points": "756:719;780:650",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAF88Hj2Z5IUbSQ="
@@ -3381,8 +3330,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 1119,
-									"top": 630,
+									"left": 1123,
+									"top": 629,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 15,
@@ -3402,8 +3351,8 @@
 									},
 									"visible": null,
 									"font": "Arial;13;0",
-									"left": 1109,
-									"top": 619,
+									"left": 1113,
+									"top": 618,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 30,
@@ -3423,8 +3372,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 1140,
-									"top": 651,
+									"left": 1144,
+									"top": 652,
 									"height": 13,
 									"alpha": -1.5707963267948966,
 									"distance": 15,
@@ -3442,7 +3391,7 @@
 								"$ref": "AAAAAAF88HhhYJHf17M="
 							},
 							"lineStyle": 1,
-							"points": "1055:719;1206:575",
+							"points": "1056:719;1213:575",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAF88HkI45Il8TA="
@@ -3475,7 +3424,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 940,
+									"left": 944,
 									"top": 690,
 									"height": 13,
 									"alpha": 1.5707963267948966,
@@ -3496,7 +3445,7 @@
 									},
 									"visible": null,
 									"font": "Arial;13;0",
-									"left": 931,
+									"left": 935,
 									"top": 702,
 									"height": 13,
 									"alpha": 1.5707963267948966,
@@ -3517,7 +3466,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 957,
+									"left": 961,
 									"top": 665,
 									"height": 13,
 									"alpha": -1.5707963267948966,
@@ -3536,7 +3485,7 @@
 								"$ref": "AAAAAAF88HhhYJHf17M="
 							},
 							"lineStyle": 1,
-							"points": "998:719;900:650",
+							"points": "1000:719;906:650",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAF88Hk5fJI4FjA="
@@ -4523,8 +4472,8 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 864,
-											"top": 384,
+											"left": 320,
+											"top": 544,
 											"height": 13
 										},
 										{
@@ -4534,8 +4483,8 @@
 												"$ref": "AAAAAAF9LkdsGXKXXrw="
 											},
 											"font": "Arial;13;1",
-											"left": 1501,
-											"top": 511,
+											"left": 1229,
+											"top": 591,
 											"width": 630.7666015625,
 											"height": 13,
 											"text": "SearchRepository"
@@ -4548,8 +4497,8 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 864,
-											"top": 384,
+											"left": 320,
+											"top": 544,
 											"width": 82.56396484375,
 											"height": 13,
 											"text": "(from Model)"
@@ -4562,15 +4511,15 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 864,
-											"top": 384,
+											"left": 320,
+											"top": 544,
 											"height": 13,
 											"horizontalAlignment": 1
 										}
 									],
 									"font": "Arial;13;0",
-									"left": 1496,
-									"top": 504,
+									"left": 1224,
+									"top": 584,
 									"width": 640.7666015625,
 									"height": 25,
 									"stereotypeLabel": {
@@ -4596,8 +4545,8 @@
 										"$ref": "AAAAAAF9LkdsF3KU4CU="
 									},
 									"font": "Arial;13;0",
-									"left": 1496,
-									"top": 529,
+									"left": 1224,
+									"top": 609,
 									"width": 640.7666015625,
 									"height": 10
 								},
@@ -4621,8 +4570,8 @@
 												"$ref": "AAAAAAF9LkobrnLAKFs="
 											},
 											"font": "Arial;13;0",
-											"left": 1501,
-											"top": 544,
+											"left": 1229,
+											"top": 624,
 											"width": 630.7666015625,
 											"height": 13,
 											"text": "«根据关键词搜索»+searchByKeyword(keyword: List, lang: String, sortGist: String, sortOrder: String): List",
@@ -4630,8 +4579,8 @@
 										}
 									],
 									"font": "Arial;13;0",
-									"left": 1496,
-									"top": 539,
+									"left": 1224,
+									"top": 619,
 									"width": 640.7666015625,
 									"height": 23
 								},
@@ -4646,8 +4595,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 432,
-									"top": 192,
+									"left": 160,
+									"top": 272,
 									"width": 10,
 									"height": 10
 								},
@@ -4662,16 +4611,16 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 432,
-									"top": 192,
+									"left": 160,
+									"top": 272,
 									"width": 10,
 									"height": 10
 								}
 							],
 							"font": "Arial;13;0",
 							"containerChangeable": true,
-							"left": 1496,
-							"top": 504,
+							"left": 1224,
+							"top": 584,
 							"width": 640.7666015625,
 							"height": 58,
 							"nameCompartment": {
@@ -4981,8 +4930,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 1470,
-									"top": 623,
+									"left": 1336,
+									"top": 663,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 15,
@@ -5002,8 +4951,8 @@
 									},
 									"visible": null,
 									"font": "Arial;13;0",
-									"left": 1465,
-									"top": 609,
+									"left": 1331,
+									"top": 649,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 30,
@@ -5023,8 +4972,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 1479,
-									"top": 652,
+									"left": 1347,
+									"top": 692,
 									"height": 13,
 									"alpha": -1.5707963267948966,
 									"distance": 15,
@@ -5042,7 +4991,7 @@
 								"$ref": "AAAAAAF9Lr3yAXMXgKE="
 							},
 							"lineStyle": 1,
-							"points": "1226:727;1724:562",
+							"points": "1226:726;1459:642",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAF9Lr+qbXNdLkU="
@@ -5533,8 +5482,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 841,
-									"top": 685,
+									"left": 845,
+									"top": 684,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 15,
@@ -5554,8 +5503,8 @@
 									},
 									"visible": null,
 									"font": "Arial;13;0",
-									"left": 828,
-									"top": 692,
+									"left": 832,
+									"top": 691,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 30,
@@ -5575,8 +5524,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 868,
-									"top": 670,
+									"left": 872,
+									"top": 671,
 									"height": 13,
 									"alpha": -1.5707963267948966,
 									"distance": 15,
@@ -5594,7 +5543,7 @@
 								"$ref": "AAAAAAF9My0yFEc2EAA="
 							},
 							"lineStyle": 1,
-							"points": "875:719;836:650",
+							"points": "877:719;842:650",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAF9MzferWGe4ik="
@@ -5615,7 +5564,7 @@
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
 					"name": "RepositoryRcmd",
-					"documentation": "此类用于获取推荐仓库。",
+					"documentation": "此包用于获取推荐仓库。",
 					"stereotype": "用于推荐仓库",
 					"operations": [
 						{
@@ -5634,7 +5583,7 @@
 									"_parent": {
 										"$ref": "AAAAAAF85Xiosg1aPhk="
 									},
-									"name": "userID",
+									"name": "userToken",
 									"type": "String"
 								},
 								{
@@ -5658,7 +5607,7 @@
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
 					"name": "UserInfo",
-					"documentation": "此类与GitHub的API交互来获取用户信息。其它类必须通过此类来获取GitHub用户信息。此类所在模块会对外提供一个实例userInfo，请直接import该实例并使用。\n该类的参数userID均为用户的一个唯一标识符（即用户名）\n该类的参数earlyTime为当前时刻距所需最早时刻的秒数。当前时刻可使用time模块获取。\n该类的部分方法需要传入String参数表示类型，请仔细阅读说明以正确传参。\n若遇到非法查询，返回值为List的直接返回一个空表，返回值为int的直接返回-1，并在终端输出\"非法查询\"。",
+					"documentation": "此包与GitHub的API交互来获取用户信息。其它类必须通过此类来获取GitHub用户信息。此类所在模块会对外提供一个实例userInfo，请直接import该实例并使用。\n该类的参数userID均为用户的一个唯一标识符（即用户名）\n该类的参数earlyTime为当前时刻距所需最早时刻的秒数。当前时刻可使用time模块获取。\n该类的部分方法需要传入String参数表示类型，请仔细阅读说明以正确传参。\n若遇到非法查询，返回值为List的直接返回一个空表，返回值为int的直接返回-1，并在终端输出\"非法查询\"。",
 					"stereotype": "用于获取用户信息",
 					"operations": [
 						{
@@ -5687,7 +5636,7 @@
 									"_parent": {
 										"$ref": "AAAAAAF85biafg33GpM="
 									},
-									"name": "userID",
+									"name": "userToken",
 									"type": "String"
 								}
 							]
@@ -5698,9 +5647,9 @@
 							"_parent": {
 								"$ref": "AAAAAAF85ZsNAA2re0Y="
 							},
-							"name": "getNewRepositoryCnt",
-							"documentation": "此方法用于获取用户在earlyTime之后新建仓库个数，需要使用GitHub的API。\n本方法只返回公开仓库的个数。",
-							"stereotype": "获取用户新建仓库个数",
+							"name": "getNewRepository",
+							"documentation": "此方法用于获取用户在earlyTime之后新建的仓库信息，需要使用GitHub的API。",
+							"stereotype": "获取用户新建仓库",
 							"parameters": [
 								{
 									"_type": "UMLParameter",
@@ -5708,7 +5657,7 @@
 									"_parent": {
 										"$ref": "AAAAAAF85eLemQ8sR3U="
 									},
-									"name": "userID",
+									"name": "userToken",
 									"type": "String"
 								},
 								{
@@ -5718,7 +5667,7 @@
 										"$ref": "AAAAAAF85eLemQ8sR3U="
 									},
 									"name": "返回值",
-									"type": "int",
+									"type": "List",
 									"direction": "return"
 								},
 								{
@@ -5738,9 +5687,9 @@
 							"_parent": {
 								"$ref": "AAAAAAF85ZsNAA2re0Y="
 							},
-							"name": "getNewCollaboratorCnt",
-							"documentation": "此方法用于获取在earlyTime之后用户新协作者人数。协作者包含用户所拥有的各个仓库的协作者，不需要去重。需要使用GitHub的API。",
-							"stereotype": "获取用户新协作者人数",
+							"name": "getNewCollaborator",
+							"documentation": "此方法用于获取在earlyTime之后用户新协作者的信息。协作者包含用户所拥有的各个仓库的协作者，不需要去重。需要使用GitHub的API。",
+							"stereotype": "获取用户新协作者",
 							"parameters": [
 								{
 									"_type": "UMLParameter",
@@ -5749,7 +5698,7 @@
 										"$ref": "AAAAAAF85gPz5A93iOY="
 									},
 									"name": "返回值",
-									"type": "int",
+									"type": "List",
 									"direction": "return"
 								},
 								{
@@ -5758,7 +5707,7 @@
 									"_parent": {
 										"$ref": "AAAAAAF85gPz5A93iOY="
 									},
-									"name": "userID",
+									"name": "userToken",
 									"type": "String"
 								},
 								{
@@ -5769,95 +5718,6 @@
 									},
 									"name": "earlyTime",
 									"type": "float"
-								}
-							]
-						},
-						{
-							"_type": "UMLOperation",
-							"_id": "AAAAAAF85gluXg+Q8Dg=",
-							"_parent": {
-								"$ref": "AAAAAAF85ZsNAA2re0Y="
-							},
-							"name": "getBrowseCnt",
-							"documentation": "此方法用于获取用户浏览次数，需要使用GitHub的API。\nearlyTime表示所需记录的最早时间，更早的记录不必计入。",
-							"stereotype": "获取浏览次数",
-							"parameters": [
-								{
-									"_type": "UMLParameter",
-									"_id": "AAAAAAF85gqe8Q+ZtQ8=",
-									"_parent": {
-										"$ref": "AAAAAAF85gluXg+Q8Dg="
-									},
-									"name": "返回值",
-									"type": "int",
-									"direction": "return"
-								},
-								{
-									"_type": "UMLParameter",
-									"_id": "AAAAAAF85grkoA+fL6Y=",
-									"_parent": {
-										"$ref": "AAAAAAF85gluXg+Q8Dg="
-									},
-									"name": "userID",
-									"type": "String"
-								},
-								{
-									"_type": "UMLParameter",
-									"_id": "AAAAAAF85n+4WRDuZFY=",
-									"_parent": {
-										"$ref": "AAAAAAF85gluXg+Q8Dg="
-									},
-									"name": "earlyTime",
-									"type": "float"
-								}
-							]
-						},
-						{
-							"_type": "UMLOperation",
-							"_id": "AAAAAAF85ohdyxD1qaw=",
-							"_parent": {
-								"$ref": "AAAAAAF85ZsNAA2re0Y="
-							},
-							"name": "getBrowseCnt",
-							"documentation": "此方法用于获取用户浏览记录，通过int返回，需要使用GitHub的API。\nearlyTime表示所需要的最早时间，更早的记录不必返回。\nlang为所需记录的语言，有以下取值：\n\"c++\" \"python\" \"java\" \"git\" \"other\"",
-							"stereotype": "获取用户特定浏览次数",
-							"parameters": [
-								{
-									"_type": "UMLParameter",
-									"_id": "AAAAAAF85ojuFBD9g9I=",
-									"_parent": {
-										"$ref": "AAAAAAF85ohdyxD1qaw="
-									},
-									"name": "返回值",
-									"type": "int",
-									"direction": "return"
-								},
-								{
-									"_type": "UMLParameter",
-									"_id": "AAAAAAF85ol6XRED+ZE=",
-									"_parent": {
-										"$ref": "AAAAAAF85ohdyxD1qaw="
-									},
-									"name": "userID",
-									"type": "String"
-								},
-								{
-									"_type": "UMLParameter",
-									"_id": "AAAAAAF85onRQhEI95E=",
-									"_parent": {
-										"$ref": "AAAAAAF85ohdyxD1qaw="
-									},
-									"name": "earlyTime",
-									"type": "float"
-								},
-								{
-									"_type": "UMLParameter",
-									"_id": "AAAAAAF85opfThENvaY=",
-									"_parent": {
-										"$ref": "AAAAAAF85ohdyxD1qaw="
-									},
-									"name": "lang",
-									"type": "String"
 								}
 							]
 						},
@@ -5887,7 +5747,7 @@
 									"_parent": {
 										"$ref": "AAAAAAF85iqNQA+pS+M="
 									},
-									"name": "userID",
+									"name": "userToken",
 									"type": "String"
 								},
 								{
@@ -5908,7 +5768,7 @@
 								"$ref": "AAAAAAF85ZsNAA2re0Y="
 							},
 							"name": "getBrowseList",
-							"documentation": "此方法用于获取用户特定语言的浏览记录，通过List返回，需要使用数据库。\nearlyTime表示所需要的最早时间，更早的记录不必返回。\nlang为所需记录的语言，有以下取值：\n\"c++\" \"python\" \"java\" \"git\" \"other\"\nList列表需按照提交时间从最近到最晚进行排序。",
+							"documentation": "此方法用于获取用户特定语言的浏览记录，通过List返回，需要使用数据库。\nearlyTime表示所需要的最早时间，更早的记录不必返回。\nlang为所需记录的语言，有\"C++\" \"C\" \"Python\" \"QML\" \"Makefile\" \"JavaScript\" \"Shell\" \"HTML\" \"QMake\" \"Java\" \"\" 这11种取值，\"\" 表示全部",
 							"stereotype": "获取用户特定浏览记录",
 							"parameters": [
 								{
@@ -5927,7 +5787,7 @@
 									"_parent": {
 										"$ref": "AAAAAAF85nHUIxDB8pg="
 									},
-									"name": "userID",
+									"name": "userToken",
 									"type": "String"
 								},
 								{
@@ -5957,7 +5817,7 @@
 								"$ref": "AAAAAAF85ZsNAA2re0Y="
 							},
 							"name": "getActionList",
-							"documentation": "此方法用于获取用户所有行为记录，通过List返回，需要使用GitHub的API。\n行为包括：提交、合并、上传、拉取、连接。\n即：\"commit\" \"merge\" \"push\"\nearlyTime表示所需要的最早时间，更早的记录不必返回。\n返回的List为一个二维List，格式如下：\nList[0][0]为用户最近的一个操作名，如\"push\"，List[0][1]为用户执行该操作的时间，如\"2021/11/3 22:41\"，该列表需按照提交时间从最近到最早进行排序。\n注：commit操作不带时间，此时时间列放空。",
+							"documentation": "此方法用于获取用户所有行为记录，通过List返回，需要使用GitHub的API。\n行为包括：提交、合并、上传。\n即：\"commit\" \"merge\" \"push\"\nearlyTime表示所需要的最早时间，更早的记录不必返回。\n返回的List为一个二维List，格式如下：\nList[0][0]为用户最近的一个操作名，如\"push\"，List[0][1]为用户执行该操作的时间，如\"2021/11/3 22:41\"，该列表需按照提交时间从最近到最早进行排序。\n注：commit操作不带时间，此时时间列填写push的时间即可。",
 							"stereotype": "获取用户近期所有行为记录",
 							"parameters": [
 								{
@@ -5976,7 +5836,7 @@
 									"_parent": {
 										"$ref": "AAAAAAF85jf+MA/T/6s="
 									},
-									"name": "userID",
+									"name": "userToken",
 									"type": "String"
 								},
 								{
@@ -5997,7 +5857,7 @@
 								"$ref": "AAAAAAF85ZsNAA2re0Y="
 							},
 							"name": "getActionList",
-							"documentation": "此方法用于获取用户特定行为记录，通过List返回，需要使用GitHub的API。\nearlyTime表示所需要的最早时间，更早的记录不必返回。\nactionKind为所需行为类型，有以下取值：\n\"push\" \"commit\" \"merge\"\n返回的List为一个二维List，格式如下\nList[0][0]为用户最近的一个操作名，List[0][1]为用户执行该操作的时间，如\"2021/11/3 22:41\"，该列表需按照提交时间从最近到最早进行排序。\n注：commit操作不带时间，此时时间列放空。",
+							"documentation": "此方法用于获取用户特定行为记录，通过List返回，需要使用GitHub的API。\nearlyTime表示所需要的最早时间，更早的记录不必返回。\nactionKind为所需行为类型，有以下取值：\n\"push\" \"commit\" \"merge\"\n返回的List为一个二维List，格式如下\nList[0][0]为用户最近的一个操作名，List[0][1]为用户执行该操作的时间，如\"2021/11/3 22:41\"，该列表需按照提交时间从最近到最早进行排序。\n注：commit操作不带时间，此时时间列填写push的时间即可。",
 							"stereotype": "获取用户近期特定行为记录",
 							"parameters": [
 								{
@@ -6016,7 +5876,7 @@
 									"_parent": {
 										"$ref": "AAAAAAF85k6KhQ/3big="
 									},
-									"name": "userID",
+									"name": "userToken",
 									"type": "String"
 								},
 								{
@@ -6048,7 +5908,7 @@
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
 					"name": "MessageSender",
-					"documentation": "此类通过公众号向用户发送通知消息。",
+					"documentation": "此包通过公众号向用户发送通知消息。",
 					"stereotype": "用于向用户发送通知",
 					"operations": [
 						{
@@ -6077,7 +5937,7 @@
 									"_parent": {
 										"$ref": "AAAAAAF871HuRZJhIBQ="
 									},
-									"name": "userID",
+									"name": "userToken",
 									"type": "String"
 								},
 								{
@@ -6121,16 +5981,6 @@
 							"name": "eventID",
 							"stereotype": "事件编号",
 							"type": "int"
-						},
-						{
-							"_type": "UMLAttribute",
-							"_id": "AAAAAAF866pKAlbXwHo=",
-							"_parent": {
-								"$ref": "AAAAAAF865mtQVZn/mc="
-							},
-							"name": "userID",
-							"stereotype": "用户标识码",
-							"type": "String"
 						},
 						{
 							"_type": "UMLAttribute",
@@ -6247,7 +6097,7 @@
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
 					"name": "GitHubOperator",
-					"documentation": "此类通过使用GitHub接口来执行用户所需操作。\n所有操作的bool类型返回值均表示操作是否成功。成功为True。",
+					"documentation": "此包通过使用GitHub接口来执行用户所需操作。\n所有操作的bool类型返回值均表示操作是否成功。成功为True。",
 					"stereotype": "GitHub操作",
 					"operations": [
 						{
@@ -6292,6 +6142,15 @@
 							"parameters": [
 								{
 									"_type": "UMLParameter",
+									"_id": "AAAAAAF9QNLAw5NuqPg=",
+									"_parent": {
+										"$ref": "AAAAAAF868CDcVfAz1Y="
+									},
+									"name": "userToken",
+									"type": "String"
+								},
+								{
+									"_type": "UMLParameter",
 									"_id": "AAAAAAF868JlKVfJPK8=",
 									"_parent": {
 										"$ref": "AAAAAAF868CDcVfAz1Y="
@@ -6332,6 +6191,15 @@
 								},
 								{
 									"_type": "UMLParameter",
+									"_id": "AAAAAAF9QNNeE5N0AKM=",
+									"_parent": {
+										"$ref": "AAAAAAF868OFvVfUwQo="
+									},
+									"name": "userToken",
+									"type": "String"
+								},
+								{
+									"_type": "UMLParameter",
 									"_id": "AAAAAAF868gYYlflt4I=",
 									"_parent": {
 										"$ref": "AAAAAAF868OFvVfUwQo="
@@ -6350,6 +6218,15 @@
 							"name": "star",
 							"stereotype": "收藏",
 							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF9QNSEXJN/vxw=",
+									"_parent": {
+										"$ref": "AAAAAAF868kl4VfstIY="
+									},
+									"name": "userToken",
+									"type": "String"
+								},
 								{
 									"_type": "UMLParameter",
 									"_id": "AAAAAAF868lqilf0xjM=",
@@ -6392,6 +6269,15 @@
 								},
 								{
 									"_type": "UMLParameter",
+									"_id": "AAAAAAF9QNTwKpOFBU4=",
+									"_parent": {
+										"$ref": "AAAAAAF868ob9lf/gxs="
+									},
+									"name": "userToken",
+									"type": "String"
+								},
+								{
+									"_type": "UMLParameter",
 									"_id": "AAAAAAF868rnI1gNRZI=",
 									"_parent": {
 										"$ref": "AAAAAAF868ob9lf/gxs="
@@ -6420,6 +6306,24 @@
 									"name": "返回值",
 									"type": "String",
 									"direction": "return"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF9QNYEoJOMzq0=",
+									"_parent": {
+										"$ref": "AAAAAAF868sld1gSBKU="
+									},
+									"name": "userToken",
+									"type": "String"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF9QNY1C5OR178=",
+									"_parent": {
+										"$ref": "AAAAAAF868sld1gSBKU="
+									},
+									"name": "repoID",
+									"type": "String"
 								}
 							]
 						}
@@ -6563,7 +6467,7 @@
 							}
 						}
 					],
-					"documentation": "该类用于建立前后端连接，为前端使用的接口。此类通过接收到的报文生成一个GEvent实例，该实例经过EventDistributer处理后发送回前端。",
+					"documentation": "该包用于建立前后端连接，为前端使用的接口。此类通过接收到的报文生成一个GEvent实例，该实例经过EventDistributer处理后发送回前端。",
 					"stereotype": "前端访问的接口",
 					"operations": [
 						{

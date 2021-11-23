@@ -861,23 +861,6 @@
 										},
 										{
 											"_type": "UMLAttributeView",
-											"_id": "AAAAAAF9R6J0+q+EHMo=",
-											"_parent": {
-												"$ref": "AAAAAAF865mtQ1ZvdsM="
-											},
-											"model": {
-												"$ref": "AAAAAAF9R6J00q+BtoA="
-											},
-											"font": "Arial;13;0",
-											"left": 45,
-											"top": 1058,
-											"width": 227.23974609375,
-											"height": 13,
-											"text": "«用户名»+userID: String",
-											"horizontalAlignment": 0
-										},
-										{
-											"_type": "UMLAttributeView",
 											"_id": "AAAAAAF866qee1bi858=",
 											"_parent": {
 												"$ref": "AAAAAAF865mtQ1ZvdsM="
@@ -887,7 +870,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 45,
-											"top": 1073,
+											"top": 1058,
 											"width": 227.23974609375,
 											"height": 13,
 											"text": "«仓库名»+repoID: String",
@@ -904,7 +887,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 45,
-											"top": 1088,
+											"top": 1073,
 											"width": 227.23974609375,
 											"height": 13,
 											"text": "«用户访问令牌»+token: String",
@@ -921,7 +904,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 45,
-											"top": 1103,
+											"top": 1088,
 											"width": 227.23974609375,
 											"height": 13,
 											"text": "«事件类型»+eType: String",
@@ -938,7 +921,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 45,
-											"top": 1118,
+											"top": 1103,
 											"width": 227.23974609375,
 											"height": 13,
 											"text": "«事件详细内容»+eDetail: List",
@@ -955,7 +938,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 45,
-											"top": 1133,
+											"top": 1118,
 											"width": 227.23974609375,
 											"height": 13,
 											"text": "«事件发起时间»+eTime: float",
@@ -966,7 +949,7 @@
 									"left": 40,
 									"top": 1038,
 									"width": 237.23974609375,
-									"height": 113
+									"height": 98
 								},
 								{
 									"_type": "UMLOperationCompartmentView",
@@ -989,7 +972,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 45,
-											"top": 1156,
+											"top": 1141,
 											"width": 227.23974609375,
 											"height": 13,
 											"text": "+(jasonList: List): GEvent",
@@ -1006,7 +989,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 45,
-											"top": 1171,
+											"top": 1156,
 											"width": 227.23974609375,
 											"height": 13,
 											"text": "«转为jason报文»+toJason(): List",
@@ -1015,7 +998,7 @@
 									],
 									"font": "Arial;13;0",
 									"left": 40,
-									"top": 1151,
+									"top": 1136,
 									"width": 237.23974609375,
 									"height": 38
 								},
@@ -1057,7 +1040,7 @@
 							"left": 40,
 							"top": 1000,
 							"width": 237.23974609375,
-							"height": 189,
+							"height": 177,
 							"nameCompartment": {
 								"$ref": "AAAAAAF865mtQ1Zqqh4="
 							},
@@ -5647,7 +5630,7 @@
 											"font": "Arial;13;1",
 											"left": 1245,
 											"top": 727,
-											"width": 92.46630859375,
+											"width": 97.58251953125,
 											"height": 13,
 											"text": "GetFileHandler"
 										},
@@ -5661,7 +5644,7 @@
 											"font": "Arial;13;0",
 											"left": -112,
 											"top": -32,
-											"width": 73.67724609375,
+											"width": 82.56396484375,
 											"height": 13,
 											"text": "(from Model)"
 										},
@@ -5682,7 +5665,7 @@
 									"font": "Arial;13;0",
 									"left": 1240,
 									"top": 720,
-									"width": 102.46630859375,
+									"width": 107.58251953125,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF9R88ZwvcODHk="
@@ -5709,7 +5692,7 @@
 									"font": "Arial;13;0",
 									"left": 1240,
 									"top": 745,
-									"width": 102.46630859375,
+									"width": 107.58251953125,
 									"height": 10
 								},
 								{
@@ -5724,7 +5707,7 @@
 									"font": "Arial;13;0",
 									"left": 1240,
 									"top": 755,
-									"width": 102.46630859375,
+									"width": 107.58251953125,
 									"height": 10
 								},
 								{
@@ -5764,7 +5747,7 @@
 							"containerChangeable": true,
 							"left": 1240,
 							"top": 720,
-							"width": 102.46630859375,
+							"width": 107.58251953125,
 							"height": 45,
 							"nameCompartment": {
 								"$ref": "AAAAAAF9R88ZwvcNgks="
@@ -5823,7 +5806,7 @@
 											"font": "Arial;13;1",
 											"left": 1349,
 											"top": 727,
-											"width": 115.578125,
+											"width": 120.3388671875,
 											"height": 13,
 											"text": "GetFileListHandler"
 										},
@@ -5837,7 +5820,7 @@
 											"font": "Arial;13;0",
 											"left": -48,
 											"top": -32,
-											"width": 73.67724609375,
+											"width": 82.56396484375,
 											"height": 13,
 											"text": "(from Model)"
 										},
@@ -5858,7 +5841,7 @@
 									"font": "Arial;13;0",
 									"left": 1344,
 									"top": 720,
-									"width": 125.578125,
+									"width": 130.3388671875,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF9R89+z/c6ztw="
@@ -5885,7 +5868,7 @@
 									"font": "Arial;13;0",
 									"left": 1344,
 									"top": 745,
-									"width": 125.578125,
+									"width": 130.3388671875,
 									"height": 10
 								},
 								{
@@ -5900,7 +5883,7 @@
 									"font": "Arial;13;0",
 									"left": 1344,
 									"top": 755,
-									"width": 125.578125,
+									"width": 130.3388671875,
 									"height": 10
 								},
 								{
@@ -5940,7 +5923,7 @@
 							"containerChangeable": true,
 							"left": 1344,
 							"top": 720,
-							"width": 125.578125,
+							"width": 130.3388671875,
 							"height": 45,
 							"nameCompartment": {
 								"$ref": "AAAAAAF9R89+z/c5hT0="
@@ -6471,16 +6454,6 @@
 							"name": "eventID",
 							"stereotype": "事件编号",
 							"type": "int"
-						},
-						{
-							"_type": "UMLAttribute",
-							"_id": "AAAAAAF9R6J00q+BtoA=",
-							"_parent": {
-								"$ref": "AAAAAAF865mtQVZn/mc="
-							},
-							"name": "userID",
-							"stereotype": "用户名",
-							"type": "String"
 						},
 						{
 							"_type": "UMLAttribute",
